@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Rowspan and Colspan </title>
+</head>
+<style>
+   
+    table,tr,td,th{
+        border: 2px solid black;
+    }
+   
+</style>
+<body>
+    <h2 align="center"><u>Table Rowspan & Colspan</u></h2>
+
+    <table align="center">
+        <tr>
+            <th rowspan="3">Day</th>
+            <th colspan ="4">Seminar</th>
+         </tr>
+        <tr>
+            <th colspan="2">Schedule</th>
+            <th rowspan="2">Topic</th>
+        </tr>
+        <tr>
+            <th>Begin</th>
+            <th>End</th>
+        </tr>
+        <tr> 
+            <th rowspan="2">Monday</th>
+            <td rowspan="2">8:00am</td>
+            <td rowspan="2">5:00am</td>
+            <td>Introduction of XMl</td>
+         </tr>
+         <tr>
+            <td> Validity:DTD and Relaxng</td>
+         </tr>
+         <tr>
+         <th rowspan="3">Tuesday</th>
+         <td>8:00am</td>
+         <td>1:00pm</td>
+         <td rowspan="2">XPath</td>
+</tr>
+<tr>
+    <td>11:00am</td>
+    <td>2:00pm</td>
+</tr>
+<tr>
+    <td>2:00am</td>
+    <td>5:00am</td>
+    <td>XSL transformation</td>
+
+</tr>
+<tr>
+    <th>Wednesday</th>
+    <td>8:00am</td>
+<td>12:00pm</td>
+<td>Formatting objects</td>
+</tr>
+    </table>
+</body> 
+</html>
