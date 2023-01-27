@@ -1,0 +1,39 @@
+body{
+    margin: 15;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+   font-family: sans-serif;
+}
+
+.container {
+    min-height: 50vh;
+    width: 550px;
+    
+  
+    border: 2px solid black;
+    border-radius: 4px;
+  }
+  .img{
+    height: 250px;
+    width: 500px;
+  }
+ 
+  .card-box {
+   
+ 
+    margin: 1em 2em;
+  
+    background-color: white;
+    border-radius: 2px;
+  }
+  
+  .btn{
+    display: inline;
+    background-color: aquamarine;
+    color: azure;
+    width: 80px;
+  }
